@@ -1,8 +1,8 @@
-## Tavsiye Edilen Sistem Gereksinimleri
-- İşlemleri hızlı bir şekilde halldebilmeniz için 4 CPU 8GB RAM olan bir sistemi tercih etmenizi tavsiye ediyorum.
+## Required features that the system is recommended to have
+- I advise you to choose a system with 4 processors and 8 GB of RAM so that you can quickly handle the processes.
 - Ubuntu 20.04
 
-## Ubuntu Masaüstü Kurulumu
+## Install the desktop version of Ubuntu
 ```
 sudo apt update
 sudo apt-get dist-upgrade
@@ -14,7 +14,7 @@ usermod -aG sudo kullanici
 reboot
 ```
 
-## Testnet Kurulumu
+## Testnet Setup
 ```
 sudo curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
 sudo apt install docker-compose
@@ -24,6 +24,6 @@ sudo docker-compose up
 ```
 
 ## Testnet İşlemleri
-- İşlemleri yaptıktan sonra tarayıcıya ``localhost`` yazarak videodaki adımları gerçekleştiriyoruz.
-     - https://youtu.be/_L7r2InsIAg
+- After performing the operations, we perform the steps in the video by typing ``localhost`` in the browser.
+     - 
 
